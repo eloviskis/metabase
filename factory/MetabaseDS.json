@@ -1,0 +1,9 @@
+{
+	"name": "MetabaseDS",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "57b47bc1-26a1-4919-a369-52b30e49cf1e",
+		"tenantId": "3f88e944-4f21-44e4-b4af-f79cbf9f639f"
+	}
+}
