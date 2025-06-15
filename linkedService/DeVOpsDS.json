@@ -5,11 +5,11 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://dev.azure.com/datasystemsoftwares/",
+			"url": "https://dev.azure.com/datasystemsoftwares/USE",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Basic",
 			"userName": "user",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQyRDI5ODg2LTMxQ0MtNDNBNy04QUNBLTQ4RUE4NTQ2MENBRV8wZDFiN2QyMS1hZGI2LTRmZDItYmZjZi1iMDk4NDg1MTRkOGIiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQyRDI5ODg2LTMxQ0MtNDNBNy04QUNBLTQ4RUE4NTQ2MENBRV8zZTk4NGQ3OS04YTA3LTQ1NTUtYjI2Zi05ZmEyZTg4ZWNjMDUiDQp9"
 		}
 	}
 }
