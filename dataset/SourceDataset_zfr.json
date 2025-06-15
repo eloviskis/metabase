@@ -1,0 +1,12 @@
+{
+	"name": "SourceDataset_zfr",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DeVOpsDS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
