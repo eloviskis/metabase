@@ -29,7 +29,76 @@
 						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"path": "$['Column_1']"
+								},
+								"sink": {
+									"name": "id"
+								}
+							},
+							{
+								"source": {
+									"path": "$['Column_2']"
+								},
+								"sink": {
+									"name": "title"
+								}
+							},
+							{
+								"source": {
+									"path": "$['Column_3']"
+								},
+								"sink": {
+									"name": "state"
+								}
+							},
+							{
+								"source": {
+									"path": "$['Column_4']"
+								},
+								"sink": {
+									"name": "area_path"
+								}
+							},
+							{
+								"source": {
+									"path": "$['Column_5']"
+								},
+								"sink": {
+									"name": "type"
+								}
+							},
+							{
+								"source": {
+									"path": "$['Column_6']"
+								},
+								"sink": {
+									"name": "assigned_to"
+								}
+							},
+							{
+								"source": {
+									"path": "$['Column_7']"
+								},
+								"sink": {
+									"name": "created_date"
+								}
+							},
+							{
+								"source": {
+									"path": "$['Column_8']"
+								},
+								"sink": {
+									"name": "closed_date"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
