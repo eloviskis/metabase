@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_zfr",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyWorkItems_DevOps_to_SQL",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2025-06-14T23:40:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
