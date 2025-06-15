@@ -7,6 +7,9 @@
 		},
 		"annotations": [],
 		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "USE/_apis/wit/wiql?api-version=7.0"
+		},
 		"schema": []
 	}
 }
